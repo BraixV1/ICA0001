@@ -313,10 +313,52 @@ Protocols myst account for the following req.
     # For ease of use by people, this dottet notation is converted to dotted decimal.
 ![Alt text](../Loeng4_20feb/Screenshots/Screenshot%202023-02-20%20100750.png)
 
-## HExadecimal and IPv6 Addresses (Cont.)
+## Hexadecimal and IPv6 Addresses (Cont.)
     # IPv6 addresses are 128 bit in length. Every 4 bits is represented by a  single hexadecimal digit. That makes the IPv6 address a total of 32 hexadecimal values.
     # The figure shows the preferred method of writing out and IPv6 address, with each X representing four hexadecimal values
-    # Each four hexadecimal character group is referred to as a hextet..
+    # Each four hexadecimal character group is referred to as a hextet.
+
+## Purpose of the Data Link Layer 
+
+### Providing Access to Media
+    # Packets exchanged betweeen nodes may experience numerous data link layers and media transitions.
+    # At each hop along the path
+### Router performs four basic Layer 2 functions
+    # Accepts a frame from the network medium
+    # De-encapsulates the frame to expose the encapsulated packet
+    # Re-encapsulates the packet into a new frame
+    # Forwards the new frame on the medium of the next network segment
+
+### WAN topologies
+#### There are three common physical WAN topologies
+    # Point-to-point - the simplest and common WAN topology. Consists of a permanent link between two endpoints
+    # Hub and spoke - Similar to a star topology Where a central site interconnects branch sites through point-to-point links.
+    # Mesh - provides high availability bit requires every end system to be connected to every other end system.
+
+### Point-to-point WAN topology
+    # Physical point-to-point topologies directly connected 
+
+
+### LAN Topologies
+
+    # End devices on LANs are typically interconnected using a star or extended star topology
+    # Star and extended star topologies are easy to install, very scalable and easy to troubleshoot.
+
+#### Early ethernet and legacy Token Ring technologies provide two additional topologies:
+    # Bus - All end systems chained together and terminated on each end.
+    # Ring - Each end system is connected to its respective neighbours to form a ring.
+
+### Access Control Methods
+#### Contentation-based access
+##### All nodes operating in half-duplex, competing for use of the medium. Examples are
+    # Carrier sense multiple access with collision detection (CSMA/CD) as used on legacy bus-topology Ethernet and wire network.
+    # Carrier sense multiple access with collision avoidance (CSMA/CA) as used on Wireless LAN.
+
+#### Controlled access
+    # Deterministic access where each node has its own time on the medium
+    # Used on legacy networks such as Token Ring and ARCNET.
+
+
 
 
 
