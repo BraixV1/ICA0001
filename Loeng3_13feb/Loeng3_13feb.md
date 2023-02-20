@@ -316,7 +316,7 @@ Protocols myst account for the following req.
 ## HExadecimal and IPv6 Addresses (Cont.)
     # IPv6 addresses are 128 bit in length. Every 4 bits is represented by a  single hexadecimal digit. That makes the IPv6 address a total of 32 hexadecimal values.
     # The figure shows the preferred method of writing out and IPv6 address, with each X representing four hexadecimal values
-    # Each four hexadecimal character group is referred to as a hextet.
+    # Each four hexadecimal character group is referred to as a hextet..
 
 
 
